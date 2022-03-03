@@ -10,6 +10,13 @@ const products = [
 		countInStock: 10,
 		rating: 4.5,
 		numReviews: 12,
+		reviews: {
+			user: '621a29f0fd2dbe5e3a4b77df',
+			name: 'Admin',
+			rating: 5,
+			createdAt: Date.now(),
+			comment: 'Nice item',
+		},
 	},
 	{
 		name: 'iPhone 11 Pro 256GB Memory',
@@ -21,6 +28,13 @@ const products = [
 		price: 599.99,
 		countInStock: 7,
 		rating: 4.0,
+		reviews: {
+			user: '621a29f0fd2dbe5e3a4b77df',
+			name: 'Admin',
+			rating: 5,
+			createdAt: Date.now(),
+			comment: 'Nice item',
+		},
 		numReviews: 8,
 	},
 	{
@@ -33,6 +47,13 @@ const products = [
 		price: 929.99,
 		countInStock: 5,
 		rating: 3,
+		reviews: {
+			user: '621a29f0fd2dbe5e3a4b77df',
+			name: 'Admin',
+			rating: 5,
+			createdAt: Date.now(),
+			comment: 'Nice item',
+		},
 		numReviews: 12,
 	},
 	{
@@ -45,6 +66,14 @@ const products = [
 		price: 399.99,
 		countInStock: 11,
 		rating: 5,
+		createdAt: Date.now(),
+		reviews: {
+			user: '621a29f0fd2dbe5e3a4b77df',
+			name: 'Admin',
+			rating: 5,
+			createdAt: Date.now(),
+			comment: 'Nice item',
+		},
 		numReviews: 12,
 	},
 	{
@@ -57,6 +86,13 @@ const products = [
 		price: 49.99,
 		countInStock: 7,
 		rating: 3.5,
+		reviews: {
+			user: '621a29f0fd2dbe5e3a4b77df',
+			name: 'Admin',
+			rating: 5,
+			createdAt: Date.now(),
+			comment: 'Nice item',
+		},
 		numReviews: 10,
 	},
 	{
@@ -69,6 +105,13 @@ const products = [
 		price: 29.99,
 		countInStock: 0,
 		rating: 4,
+		reviews: {
+			user: '621a29f0fd2dbe5e3a4b77df',
+			name: 'Admin',
+			rating: 5,
+			createdAt: Date.now(),
+			comment: 'Nice item',
+		},
 		numReviews: 12,
 	},
 ];

@@ -20,3 +20,61 @@ a:hover {
 	color: inherit;
 	text-decoration: underline;
 }
+
+.cart-items-counter {
+	position: absolute;
+	text-align: center;
+	padding-left: 9px;
+	padding-right: 9px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	display: inline-block;
+	background-color: var(--bs-red);
+	top: 5%;
+	left: 15%;
+	font-size: 12px;
+	color: #fff;
+	padding: 0 5px;
+	vertical-align: top;
+	margin-left: -10px;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.sticky-top-right {
+	position: fixed;
+	top: 0;
+	text-align: right;
+	width: 100%;
+	z-index: 100;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+	display: flex;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 0;
+}
+
+.carousel-caption h2 {
+	color: #fff;
+}
+
+.carousel img {
+	height: 300px;
+	width: 300px;
+	margin: 60px 40px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.carousel a {
+	margin: 0 auto;
+}
